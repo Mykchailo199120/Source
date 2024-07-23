@@ -17,7 +17,7 @@
     font-size: 30px;
     font-weight: 400;
     line-height: 49px;
-    text-align: center;
+    margin: 56px 56px;
   }
 
   &__navbar {
@@ -35,17 +35,26 @@
     &::before {
       content: '';
       position: absolute;
-      left: 0;
-      top: 50%;
+      left: 62px;
+      top: 1px;
       transform: translateY(-50%);
       width: 11px;
       height: 11px;
       background-color: #FFE711;
-      border: 4px solid rgba(255, 255, 255, 0);
       border-radius: 50%;
     }
 
-
+    &::after {
+      content: '';
+      position: absolute;
+      left: 56px;
+      top: 1px;
+      transform: translateY(-50%);
+      width: 11px;
+      height: 11px;
+      border: 6px solid rgba(255, 255, 255, 0.25);
+      border-radius: 50%;
+    }
   }
 }
 
