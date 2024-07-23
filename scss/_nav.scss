@@ -1,0 +1,27 @@
+.nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  &__list {
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    gap: 40px;
+  }
+
+  &__item {
+
+    &--text:hover {
+      color: var(--color-blue);
+    }
+
+    &--text {
+      color: var(--color-white);
+      font-size: 20px;
+      text-decoration: none;
+    }
+  }
+
+}
+

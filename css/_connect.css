@@ -1,0 +1,2 @@
+.connect{display:-webkit-box;display:-ms-flexbox;display:flex;gap:18px;padding:35px}.connect__list{display:-webkit-box;display:-ms-flexbox;display:flex;font-size:18px;text-decoration:none;color:var(--color-white);gap:10px}.connect__icon{width:24px;height:24px;fill:var(--color-black);stroke:white}.connect__list:hover .connect__icon{stroke:#1A7DF0}.connect__list:hover{color:#1A7DF0}
+/*# sourceMappingURL=_connect.css.map */

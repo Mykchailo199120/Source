@@ -1,0 +1,11 @@
+body {
+  font-family: "Raleway", serif;
+  background-color: var(--color-black);
+  background-image: url('../img/bg.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.center {
+  padding: 0 calc(50vw - 720px);
+}

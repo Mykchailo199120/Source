@@ -1,0 +1,29 @@
+.connect {
+  display: flex;
+  gap: 18px;
+  padding: 35px;
+
+  &__list {
+    display: flex;
+    font-size: 18px;
+    text-decoration: none;
+    color: var(--color-white);
+    gap: 10px;
+  }
+
+  &__icon {
+    width: 24px;
+    height: 24px;
+    fill: var(--color-black);
+    stroke: white;
+  }
+
+
+  &__list:hover &__icon {
+    stroke: #1A7DF0;
+  }
+
+  &__list:hover {
+    color: #1A7DF0;
+  }
+}
