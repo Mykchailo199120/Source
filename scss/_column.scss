@@ -1,0 +1,18 @@
+.column {
+  display: flex;
+
+  &__list {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    color: var(--color-white);
+  }
+
+  &__item {
+    font-size: 42px;
+    font-weight: 400;
+    line-height: 49px;
+    padding-top: 77px;
+  }
+}
+
+

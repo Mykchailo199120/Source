@@ -1,15 +1,20 @@
 .mission {
-  display: flex;
 
+
+  &__item {
+
+  }
 
   &__title {
-    display: flex;
     color: var(--color-white);
     font-size: 30px;
     font-weight: 700;
 
+
     &--color {
       color: var(--color-yellow);
+
+
     }
   }
 

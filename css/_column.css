@@ -1,0 +1,2 @@
+.column{display:-webkit-box;display:-ms-flexbox;display:flex}.column__list{display:-ms-grid;display:grid;-ms-grid-columns:(1fr)[3];grid-template-columns:repeat(3,1fr);color:var(--color-white)}.column__item{font-size:42px;font-weight:400;line-height:49px;padding-top:77px}
+/*# sourceMappingURL=_column.css.map */
