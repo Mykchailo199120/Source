@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="0" height="0">
+    <symbol id="facebook-yellow" width="16" height="24" viewBox="0 0 16 24" fill="none">
+        <path d="M1.5 9.6002V14.4002H5.1V22.8002H9.9V14.4002H13.5L14.7 9.6002H9.9V7.2002C9.9 6.88194 10.0264 6.57671 10.2515 6.35167C10.4765 6.12662 10.7817 6.0002 11.1 6.0002H14.7V1.2002H11.1C9.5087 1.2002 7.98258 1.83234 6.85736 2.95755C5.73214 4.08277 5.1 5.6089 5.1 7.2002V9.6002H1.5Z"
+              stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+    </symbol>
+    <symbol id="instagram-yellow" width="25" height="24" viewBox="0 0 25 24" fill="none">
+        <g clip-path="url(#clip0_308_22792)">
+            <path d="M17.6769 1.64746H7.32393C4.46505 1.64746 2.14746 3.96505 2.14746 6.82393V17.1769C2.14746 20.0358 4.46505 22.3533 7.32393 22.3533H17.6769C20.5358 22.3533 22.8533 20.0358 22.8533 17.1769V6.82393C22.8533 3.96505 20.5358 1.64746 17.6769 1.64746Z"
+                  stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+            <path d="M12.4995 15.8819C14.6437 15.8819 16.3819 14.1437 16.3819 11.9995C16.3819 9.85538 14.6437 8.11719 12.4995 8.11719C10.3554 8.11719 8.61719 9.85538 8.61719 11.9995C8.61719 14.1437 10.3554 15.8819 12.4995 15.8819Z"
+                  stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+            <path d="M18.3232 6.17676V6.17776" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+        </g>
+        <defs>
+            <clipPath>
+                <rect width="24" height="24" transform="translate(0.5)"/>
+            </clipPath>
+        </defs>
+    </symbol>
+    <symbol id="telegram-yellow" width="25" height="22" viewBox="0 0 25 22" fill="none">
+        <path d="M16.1002 8.60039L11.3002 13.4004L18.5002 20.6004L23.3002 1.40039L1.7002 9.80039L6.5002 12.2004L8.9002 19.4004L12.5002 14.6004"
+              stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+    </symbol>
+    <symbol id="youtube-yellow" width="25" height="24" viewBox="0 0 25 24" fill="none">
+        <g clip-path="url(#clip0_308_22794)">
+            <path d="M18.6111 3H6.38889C3.68883 3 1.5 5.30254 1.5 8.14286V15.8571C1.5 18.6975 3.68883 21 6.38889 21H18.6111C21.3112 21 23.5 18.6975 23.5 15.8571V8.14286C23.5 5.30254 21.3112 3 18.6111 3Z"
+                  stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+            <path d="M10.5 8L16.5 12L10.5 16V8Z" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+        </g>
+        <defs>
+            <clipPath>
+                <rect width="24" height="24" transform="translate(0.5)"/>
+            </clipPath>
+        </defs>
+    </symbol>
+</svg>
