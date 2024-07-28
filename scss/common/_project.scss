@@ -1,0 +1,126 @@
+.project {
+  margin-top: 100px;
+
+  &__title {
+    text-align: center;
+    color: var(--color-white);
+    font-size: 42px;
+    font-weight: 400;
+    line-height: 1.16;
+  }
+
+
+  &__container {
+    display: flex;
+    gap: 20px;
+  }
+
+  &__block {
+    position: relative;
+
+  }
+
+
+  &__img {
+    display: block;
+    border-radius: 30px;
+    margin-top: 20px;
+
+
+  }
+
+  &__block::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(rgba(0, 0, 0, 0), rgba(1, 30, 65, 0.75)); // Ваш rgba фон
+    pointer-events: none; // Щоб фон не заважав взаємодії з зображенням
+  }
+
+  &__border-1 {
+    border: 1px solid var(--color-yellow);
+    background-color: var(--color-yellow);
+    border-radius: 30px;
+    width: 345px;
+    height: 168px;
+    margin-top: 20px;
+  }
+
+  &__border-2 {
+    border: 1px solid var(--color-blue);
+    background-color: var(--color-blue);
+    border-radius: 30px;
+    width: 345px;
+    height: 168px;
+    margin-top: 20px;
+  }
+
+  &__text-1 {
+    color: var(--color-white);
+    font-size: 20px;
+    line-height: 1.2;
+    position: absolute;
+    top: 230px;
+    left: 20px;
+  }
+
+  &__text-2 {
+    color: var(--color-white);
+    font-size: 20px;
+    line-height: 1.2;
+    position: absolute;
+    bottom: 70px;
+    left: 20px;
+  }
+
+  &__text-3 {
+    color: var(--color-black);
+    font-size: 20px;
+    line-height: 1.2;
+    position: absolute;
+    top: 100px;
+    left: 20px;
+  }
+
+  &__text-4 {
+    color: var(--color-white);
+    font-size: 20px;
+    line-height: 1.2;
+    position: absolute;
+    bottom: 70px;
+    left: 20px;
+  }
+
+  &__text-5 {
+    color: var(--color-white);
+    font-size: 20px;
+    line-height: 1.2;
+    position: absolute;
+    bottom: 180px;
+    left: 20px;
+  }
+
+  &__text-6 {
+    color: var(--color-black);
+    font-size: 20px;
+    line-height: 1.2;
+    position: absolute;
+    top: 470px;
+    left: 20px;
+  }
+
+  &__text-7 {
+    color: var(--color-white);
+    font-size: 20px;
+    line-height: 1.2;
+    position: absolute;
+    bottom: 0;
+    left: 20px;
+  }
+
+}
+
+

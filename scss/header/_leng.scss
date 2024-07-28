@@ -1,5 +1,6 @@
 .leng {
 
+
   &__list {
     display: flex;
     justify-content: end;
@@ -45,10 +46,10 @@
 
   &__text {
     align-items: center;
-    position: fixed;
-    top: 6%;
-    border: 1px solid var(--color-white);
-    background-color: var(--color-white);
+    position: absolute;
+    top: 65%;
+    border: 1px solid var(--color-black);
+    background-color: var(--color-black);
     width: 61px;
     height: 69px;
     padding: 5px;
@@ -57,6 +58,7 @@
     transition: 0.5s;
     transform-origin: top left;
     z-index: 1000;
+    overflow: visible;
   }
 
   &__item[open] + &__text {
@@ -64,7 +66,7 @@
   }
 
   &__trans {
-    color: var(--color-black);
+    color: var(--color-white);
     text-decoration: none;
   }
 

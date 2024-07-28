@@ -1,0 +1,36 @@
+.mission {
+  display: flex;
+
+  &__item {
+    position: relative;
+    bottom: 15px;
+  }
+
+
+  &__title {
+    color: var(--color-white);
+    font-size: 30px;
+    font-weight: 700;
+
+
+    &--color {
+      color: var(--color-yellow);
+
+
+    }
+  }
+
+  &__par {
+
+    flex-direction: column;
+    white-space: wrap;
+    color: var(--color-white);
+    font-size: 18px;
+
+  }
+
+  &__text {
+
+
+  }
+}

@@ -1,30 +1,31 @@
 @import "normalize";
-@import "vars";
+@import "header/vars";
 @import "global";
 
-@import "info";
-@import "menu";
-@import "nav";
-@import "title";
-@import "btn";
-@import "border";
+@import "common/info";
+@import "common/menu";
+@import "common/nav";
+@import "common/title";
+@import "common/btn";
+@import "common/border";
 
-@import "main";
-@import "goal";
-@import "mission";
-@import "activity";
-@import "num";
-@import "column";
-@import "player";
-@import "project";
-@import "active";
-@import "member";
-@import "partners";
-@import "news";
-@import "team";
-@import "map";
+@import "common/main";
+@import "common/goal";
+@import "common/mission";
+@import "common/activity";
+@import "common/num";
+@import "common/column";
+@import "common/player";
+@import "common/project";
+@import "common/active";
+@import "common/member";
+@import "common/partners";
+@import "common/news";
+@import "common/team";
+@import "common/map";
 
-@import "footer";
+@import "footer/footer";
+@import "footer/section";
 
 @import "header/logo";
 @import "header/header";

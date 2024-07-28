@@ -1,2 +1,2 @@
-body{font-family:"Raleway",serif;background-color:var(--color-black);background-image:url("../img/bg.png");background-size:cover;background-repeat:no-repeat}.center{padding:0 calc(50vw - 720px)}
+body{font-family:"Raleway",serif;background-color:var(--color-black);background-image:url("img/svg/hand.svg");background-size:cover;background-repeat:no-repeat}body:before{content:"";position:absolute;top:200px;right:0;width:300px;height:500px;background:var(--color-yellow);-webkit-filter:blur(200px);filter:blur(200px);z-index:1}body:after{content:"";position:absolute;top:500px;left:0;width:300px;height:400px;background:var(--color-blue);-webkit-filter:blur(200px);filter:blur(200px);z-index:1}.center{padding:0 calc(50vw - 720px)}
 /*# sourceMappingURL=_global.css.map */

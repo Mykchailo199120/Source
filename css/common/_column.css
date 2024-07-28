@@ -1,0 +1,2 @@
+.column{display:-webkit-box;display:-ms-flexbox;display:flex;-ms-flex-wrap:wrap;flex-wrap:wrap;position:relative}.column:before{content:"";position:absolute;top:0;left:-300px;width:300px;height:500px;background:var(--color-yellow);-webkit-filter:blur(200px);filter:blur(200px);z-index:1}.column__list{display:-ms-grid;display:grid;position:relative;-ms-grid-columns:(1fr)[3];grid-template-columns:repeat(3,1fr);color:var(--color-white)}.column__item{position:relative;font-size:42px;font-weight:400;line-height:49px;padding-top:77px}
+/*# sourceMappingURL=_column.css.map */

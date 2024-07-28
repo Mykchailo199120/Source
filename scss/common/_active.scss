@@ -1,0 +1,89 @@
+.active {
+  display: flex;
+  flex-wrap: wrap;
+  position: relative;
+  flex-direction: column;
+
+  &::before, {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -200px;
+    width: 300px;
+    height: 500px;
+    background: var(--color-yellow);
+    filter: blur(200px);
+    z-index: 1;
+  }
+
+
+  &__title {
+    display: flex;
+    justify-content: start;
+    color: var(--color-white);
+    font-size: 32px;
+    line-height: 1.15;
+  }
+
+
+  &__nav {
+    display: flex;
+    color: var(--color-white);
+    gap: 30px;
+  }
+
+  &__item {
+    position: relative;
+    list-style: none;
+    font-size: 20px;
+    line-height: 1.5;
+    right: 50px;
+
+
+  }
+
+  &__list {
+    position: relative;
+    justify-content: start;
+    padding: 0 44px;
+    margin-top: 15px;
+
+
+    &::before {
+      content: '';
+      position: absolute;
+      width: 11px;
+      height: 11px;
+      top: 6px;
+      left: 5px;
+      background-color: var(--color-blue);
+      border-radius: 50%;
+    }
+
+    &::after {
+      content: '';
+      position: absolute;
+      left: -1px;
+      top: 0;
+      width: 11px;
+      height: 11px;
+
+      border: 6px solid rgba(255, 255, 255, 0.25);
+      border-radius: 50%;
+    }
+  }
+
+  &__text {
+    list-style: none;
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    line-height: 1.5;
+
+    &:hover {
+      color: var(--color-blue);
+    }
+  }
+
+
+}
