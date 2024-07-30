@@ -415,7 +415,10 @@
         </div>
     </section>
 </header>
-<section class="info center">
+<section class="info">
+    <svg class="info__hand">
+        <use href="img/svg/hand-sprite.svg#hand"></use>
+    </svg>
     <article class="menu">
         <nav class="nav">
             <uL class="nav__list">
@@ -633,35 +636,37 @@
             </div>
         </div>
     </section>
+    <h2 class="project__title">Наші проекти</h2>
     <section class="project">
-        <h2 class="project__title">Наші проекти</h2>
-        <div class="project__container">
-            <div class="project__block">
-
+        <article class="project__container">
+            <div class="project__column">
                 <img class="project__img" src="img/school.png" alt="School" height="300"
                      width="346"/>
                 <h4 class="project__text-1">Українська школа та садочок “Нове покоління”</h4>
-
+            </div>
+            <div class="project__column">
                 <img class="project__img" src="img/park.png" alt="Park" height="200" width="346"/>
                 <h4 class="project__text-2">Український сквер на горі Монжуїк</h4>
             </div>
-
-
-            <div class="project__block">
-                <div class="project__border-1"><h4 class="project__text-3">Гуманітарний Центр допомоги Україні </h4>
-                </div>
+        </article>
+        <article class="project__container">
+            <div class="project__border-1"><h4 class="project__text-3">Гуманітарний Центр допомоги<br> Україні </h4>
+            </div>
+            <div class="project__column">
                 <img class="project__img" src="img/library.png" alt="Library" height="332" width="346"/>
                 <h4 class="project__text-4">Українська бібліотека у<br> Барселоні</h4></div>
-
-            <div class="project__block">
+        </article>
+        <article class="project__container">
+            <div class="project__column">
                 <img class="project__img" src="img/fest.png" alt="Fest" height="334" width="346"/>
                 <h4 class="project__text-5">Щорічний фестиваль<br> української культури<br> “Ucrania Fest”</h4>
-                <div class="project__border-2"><h4 class="project__text-6">Український Центр у Барселоні</h4></div>
             </div>
-            <div class="project__block">
-                <img class="project__img" src="img/support.png" alt="Support" height="520" width="346"/>
-                <h4 class="project__text-7">Веб сайт допомоги<br> українським біженцям HelpUA.esp</h4>
+            <div class="project__border-2"><h4 class="project__text-6">Український Центр у Барселоні</h4>
             </div>
+        </article>
+        <div class="project__column">
+            <img class="project__img" src="img/support.png" alt="Support" height="520" width="346"/>
+            <h4 class="project__text-7">Веб сайт допомоги<br> українським біженцям HelpUA.esp</h4>
         </div>
     </section>
     <section class="active">

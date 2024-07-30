@@ -1,22 +1,8 @@
 .player {
   display: flex;
   position: relative;
-  gap: 30px;
-
-  &::before, {
-    content: '';
-    position: absolute;
-    top: 150px;
-    right: -120px;
-    width: 500px;
-    height: 400px;
-    background: var(--color-blue);
-    filter: blur(200px);
-    z-index: 1;
-
-
-  }
-
+  gap: 10px;
+  
   &__youtube {
     margin-top: 60px;
     width: 700px;
@@ -43,9 +29,11 @@
   }
 
   &__text {
+    position: relative;
     color: var(--color-white);
     font-size: 20px;
     line-height: 30px;
+
   }
 
   &__button {
@@ -70,6 +58,7 @@
   }
 
   &__button2 {
+    position: absolute;
     border: 1px solid var(--color-yellow);
     background-color: var(--color-black);
     border-radius: 100px;
@@ -83,6 +72,7 @@
     &:hover {
       transform: scale(1.1);
     }
+
   }
 
   &__link1 {
@@ -92,11 +82,6 @@
     font-size: 24px;
     font-weight: 500;
     line-height: 28px;
-
-    &:hover {
-      color: var(--color-white);
-    }
-
   }
 
   &__link2 {
@@ -107,8 +92,5 @@
     font-weight: 500;
     line-height: 28px;
 
-    &:hover {
-      color: var(--color-white);
-    }
   }
 }
